@@ -1,0 +1,66 @@
+/*
+
+.container был написал ChatGPT ибо я за 20 минут и спустя 3 туториала, 
+не смог выровнить по центру ЕБАННЫЙ ПРЯМОУГОЛЬНИК.
+- IKlem, 22:39 17.08.2026
+
+*/
+
+body {
+    background-color: rgb(61, 61, 61);
+}
+
+.comfortaa {
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.container {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cube {
+    position: relative;
+    background-color: rgb(49, 49, 49);
+    width: 500px;
+    height: 200px;
+
+    border-radius: 10px;
+}
+
+.cat {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-radius: 10px;
+}
+
+.username {
+    position: absolute;
+    color: white;
+    
+    top: 17px;
+    left: 100px;
+}
+
+.undertext {
+    position: absolute;
+    color: rgb(106, 153, 85);
+
+    top: 70px;
+    left: 15px;
+}
+
+.link {
+    position: absolute;
+    color: rgb(106, 153, 85);
+
+    top: 110px;
+    left: 15px;
+}
